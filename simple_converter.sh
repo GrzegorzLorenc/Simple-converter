@@ -81,7 +81,7 @@ function converteur {
     read -a value_to_convert
     done
 
-    echo "Result: $(echo "scale=2; ${text[1]} * $value_to_convert" | bc -l)"  #multiplies by line number, needs to multiple by given input (int / float) now?
+    echo "Result: $(echo "scale=2; ${text[1]} * $value_to_convert" | bc -l)"
     menu
 }
 
